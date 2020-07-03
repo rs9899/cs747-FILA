@@ -1,0 +1,9 @@
+TO run the code
+
+> python main.py
+
+
+-- It will generate the plots one by one.
+-- You have to close one plot to see the next.
+-- Various parameters can be changed if further testing is needed. The name of parameters 
+-- and it's usage is intuitive.
