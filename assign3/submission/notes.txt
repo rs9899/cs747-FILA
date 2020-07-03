@@ -1,0 +1,24 @@
+Programming Assignment 3
+Rupesh 160050042
+
+Strategy used : TD(lambda)
+Reasons:
+* The other common strategies we know of, for reading State reward pair 
+given fo a fixed strategy are
+		* Monte-carlo learning which is TD(1)
+		* TD(0) which is TD(Lamda) at lambda to 0.
+
+Algorithm decription:
+After parsing the datafile to read in all the values,
+we intialise V with 0 and e as 0.
+Now for the episod described in each step,
+we calculate the expected total reward value using current reward and using current V estimate.
+We change the e(eligibility) of episode adding one.
+Finally we update V keeping alpha as the learning rate.
+Also eligibility is multiplied by gamma and lambda as a control parameter of how back you are looking. 
+
+ALpha Decay:
+alph = alph_0 * (1.0/(1+(step_num//100)))
+
+Parameter Estimation:
+For the given 2 samples, the goal was to keep the error low and find a parameter that gets good result in both.
