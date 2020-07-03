@@ -1,0 +1,3 @@
+[submodule "courseProject"]
+	path = courseProject
+	url = https://github.com/rs9899/causal-bandit.git
