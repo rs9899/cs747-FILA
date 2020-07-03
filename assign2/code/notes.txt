@@ -1,0 +1,8 @@
+* While howard policy iteration, we use argmax at Q, which means that if 2 action are same, the one with the earlier action number will be picked.
+
+
+-- For the MDP creation
+
+3 state MDP.
+Second one behaves as a sink with highest reward.
+All will choose action 0  which means staying in the same state and move to centre only when gamma is high, i.e more fututre looking.

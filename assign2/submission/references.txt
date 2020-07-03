@@ -1,0 +1,7 @@
+A sample Pulp Program
+https://github.com/AnnaNican/optimizers/blob/master/GoingOnVacation.ipynb
+https://pythonhosted.org/PuLP/CaseStudies/a_blending_problem.html
+
+Pulp video suggestion
+https://www.youtube.com/watch?v=7yZ5xxdkTb8
+
