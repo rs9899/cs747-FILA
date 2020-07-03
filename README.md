@@ -1,4 +1,4 @@
-## Foundation of Intelligence and Learning Agents
+## Foundation of Intelligent and Learning Agents
 
 Book to follow:
 * Reinforcement Learning - an introduction BY Sutton \& Barto
