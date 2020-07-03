@@ -1,0 +1,5 @@
+References for assignment 1
+--
+Class Notes for algorithm
+Scipy and Numpy documentation
+--
